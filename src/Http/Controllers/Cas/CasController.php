@@ -10,7 +10,7 @@ abstract class CasController
     public function __construct()
     {
         $validateUrl = sprintf(
-            "http://%s:%s%s/p3/serviceValidate",
+            "https://%s:%s%s/p3/serviceValidate",
             config('cas.cas_hostname'),
             config('cas.cas_port'),
             config('cas.cas_uri')

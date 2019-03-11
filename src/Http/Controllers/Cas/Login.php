@@ -9,7 +9,6 @@ class Login extends CasController
         cas()->authenticate();
 
         $email = (config('cas.cas_masquerade')) ? cas()->user() : array_get(cas()->getAttributes(), 'email');
-
         $user = app(config('auth.providers.users.model'))->whereEmail($email)->first();
 
         if ($user && auth()->login($user)) {

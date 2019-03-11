@@ -11,6 +11,7 @@ return [
     'login'                    => 'Log Masuk',
     'login_here'               => 'Log masuk disini',
     'login_cas'                => 'Log masuk CAS',
+    'login_cas_failed'         => 'Tidak ada pengguna yang berasosiasi dengan akaun CAS tersebut',
     'name'                     => 'Nama Penuh',
     'not_registered_yet?'      => 'Belum mendaftar?',
     'password'                 => 'Kata Laluan',
