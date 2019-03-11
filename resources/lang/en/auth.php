@@ -10,6 +10,7 @@ return [
     'identifier'               => 'Email',
     'login'                    => 'Login',
     'login_here'               => 'Login Here',
+    'login_cas'                => 'Login Using CAS',
     'name'                     => 'Name',
     'not_registered_yet?'      => 'Not registered yet?',
     'password'                 => 'Password',

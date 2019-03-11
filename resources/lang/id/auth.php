@@ -10,6 +10,7 @@ return [
     'identifier'               => 'Email',
     'login'                    => 'Login',
     'login_here'               => 'Login disini',
+    'login_cas'                => 'Login via CAS',
     'name'                     => 'Nama Lengkap',
     'not_registered_yet?'      => 'Belum punya akun?',
     'password'                 => 'Password',
